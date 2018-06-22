@@ -1,0 +1,49 @@
+{
+	"viaX": { "nodosInicio":"diccInicioViaX","nodosFin":"diccFinViaX","esquema": "dicEsquemas['viaX']",
+						"alternativasDisparo":"diccAlternativasDisparoX",
+						 "viasCircHabilitadas":"viasCircHabilitadasViaX" ,"delayVehiculos":"delayAutomovil"
+						,"tipoVehiculo":"automovil", 
+						"cantCarriles": 2,
+						"cantTransicionesLink":8,
+						"fasesARegistrar":{
+							"fase_roja": "DICC_FASES['i8']+ DICC_FASES['i1']+ DICC_FASES['i2']+ DICC_FASES['i3']+ DICC_FASES['i4']+ DICC_FASES['i5']",
+							"fase_verde_amarilla":"DICC_FASES['i6']+DICC_FASES['i7']"
+						},
+						"datosLinkAContabilizar":{
+							"transicionesSalidaLink": [ "t14","t24"]
+						},
+						"nombreSemaforoControlador":"semaforoLink1",
+						"traficoPredefinido": "dicTraficoPredefinido['viaX']"
+					},
+	"viaYDesc": {"nodosInicio":"diccInicioViaYDesc","nodosFin":"diccFinViaYDesc","esquema": "dicEsquemas['viaYDesc']",
+						"alternativasDisparo":"diccAltDisparoYDesc",
+						"viasCircHabilitadas":"viasCircHabilitadasViaYDesc" ,"delayVehiculos":"delayAutomovil",
+						"cantCarriles": 2,
+						"cantTransicionesLink":12,
+						"fasesARegistrar":{
+							"fase_roja": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						},
+						"datosLinkAContabilizar":{
+							"transicionesSalidaLink": [ "t14","t24"]
+						},
+						"nombreSemaforoControlador":"semaforoLink6",
+						"tipoVehiculo":"automovil",
+						"traficoPredefinido": "dicTraficoPredefinido['viaYDesc']"
+					},
+	"viaYAsc": {"nodosInicio":"diccInicioViaYAsc","nodosFin":"diccFinViaYAsc","esquema": "dicEsquemas['viaYAsc']",
+						"alternativasDisparo":"diccAltDisparoYAsc",
+						"viasCircHabilitadas":"viasCircHabilitadasViaYAsc" ,
+						"delayVehiculos":"delayColectivo",
+						"cantCarriles": 1,
+						"cantTransicionesLink":3,
+						"fasesARegistrar":{	 
+							"fase_roja": "DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						},
+						"datosLinkAContabilizar":{
+								"transicionesSalidaLink": [ "t26"]
+						},						 
+						"nombreSemaforoControlador":"semaforoLink3",
+						"tipoVehiculo":"colectivo",
+						"traficoPredefinido": "dicTraficoPredefinido['viaYAsc']"
+					}
+}

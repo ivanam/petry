@@ -1,0 +1,17 @@
+{
+	"Escenario1":{
+
+				"viaX": {
+						"colLugares": ["p11.L1","p21.L1","p12.L1","p22.L1"],
+						"imagenVehiculos":"tiposToken['automovil']['pathIcono']"
+				},
+				"viaYDesc":{
+								"colLugares": [],
+								"imagenVehiculos":"tiposToken['automovil']['pathIcono']"
+							},
+				"viaYAsc": {
+							"colLugares": [],
+							"imagenVehiculos":"tiposToken['colectivo']['pathIcono']"
+							}
+				}
+}

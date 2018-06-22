@@ -1,0 +1,46 @@
+{
+	"TITULO":{
+		"texto":"TEXTO_TITULO",
+		"x":140,
+		"y":10,
+		"tamanio": 28
+	},
+	"INTERSECCION":{
+		"texto":"TEXTO_INTERSECCION",
+		"x":110,
+		"y":40,
+		"tamanio": 28
+	},
+	"AREA_L1":{
+		"texto":"TEXTO_AREA_L1",
+		"x":93,
+		"y":70,
+		"tamanio": 28
+	},
+	"AREA_L2_L3":{
+		"texto":"TEXTO_AREA_L2_L3",
+		"x":105,
+		"y":100,
+		"tamanio": 28
+	},
+
+	"AREA_L4":{
+		"texto":"TEXTO_AREA_L4",
+		"x":93,
+		"y":130,
+		"tamanio": 28
+	},
+
+	"AREA_L5_L6_1":{
+		"texto":"TEXTO_AREA_L6_L5_1",
+		"x":110,
+		"y":160,
+		"tamanio": 28
+	},
+	"AREA_L5_L6_2":{
+		"texto":"TEXTO_AREA_L6_L5_2",
+		"x":110,
+		"y":190,
+		"tamanio": 28
+	}
+}

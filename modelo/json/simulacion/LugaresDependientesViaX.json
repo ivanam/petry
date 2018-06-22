@@ -1,0 +1,9 @@
+[
+	{"tipo":"lugar", "nombre":"p30.L2", "enViaCirculacion":false },
+	{ "tipo":"transicionNueva", "nombre":"t30A",  "esTransicionCruzada": false, "input_places": [{"nombrelugar" : "p24", "nombreVariable":"vehiculo"}],
+		"output_places": [{ "nombrelugar": "p30.L2", "nombreVariable": "vehiculo" }]
+		 },						 			
+	{ "tipo":"transicionNueva", "nombre":"t30B",  "esTransicionCruzada": false, "input_places": [{"nombrelugar" : "p25", "nombreVariable":"vehiculo"}],
+		"output_places": [{ "nombrelugar": "p30.L2", "nombreVariable": "vehiculo"}]
+		}						 			
+]

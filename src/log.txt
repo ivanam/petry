@@ -1,0 +1,10 @@
+[DEBUG] (MainThread) En main()
+[DEBUG] (MainThread) 
+[DEBUG] (MainThread) ++++++++++++++++++++++++++++++++++++++++++++++++++++
+[DEBUG] (MainThread) Dia: 30/11/2015 -- Hora: 20:50:21 
+[DEBUG] (MainThread) ++++++++++++++++++++++++++++++++++++++++++++++++++++
+[DEBUG] (MainThread) 
+Leyendo archivo menu.json en directorio: /home/rodrigo/FUNDAMENTOS-TEORICOS-INFORMATICA/TP-Final/TP-Final-2D/backup-tpFinalv3-19-11-2015-dividido/src/vista/json/vista/menu.json 
+
+Vista creada!
+

@@ -1,0 +1,16 @@
+[
+	{"tipo":"lugar", "nombre":"p16", "enViaCirculacion":false },
+	{"tipo":"lugar", "nombre":"p26", "enViaCirculacion":false },
+	{ "tipo":"transicionNueva", "nombre":"t26",  "esTransicionCruzada": false,
+		"input_places": [{"nombrelugar" : "p13.L3", "nombreVariable":"vehiculo"}],
+		"output_places": [{ "nombrelugar": "p26", "nombreVariable": "vehiculo"}]
+		},
+	{ "tipo":"transicionNueva", "nombre":"t16",  "esTransicionCruzada": false,
+		"input_places": [{"nombrelugar" : "p26", "nombreVariable":"vehiculo"}],
+		"output_places": [{ "nombrelugar": "p16", "nombreVariable": "vehiculo" }]
+		},						 			
+	{ "tipo":"transicionNueva", "nombre":"t32.L5",  "esTransicionCruzada": false,
+	 	"input_places": [{"nombrelugar" : "p16", "nombreVariable":"vehiculo"}],
+		"output_places": [{ "nombrelugar": "p32.L5", "nombreVariable": "vehiculo"}]
+		}
+]

@@ -1,0 +1,488 @@
+[ 
+			{ "tipo":"lugar", "nombre":"p10", "enViaCirculacion":true , "posicion": { "x": 250, "y": 20} , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" },"pathIcono":"tiposToken['automovil']['pathIcono']", "lugarCompartido": false
+				 
+			},
+
+			{"tipo":"lugar","nombre":"p11.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y": "70+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*1" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			},
+						{ "tipo":"transicion", "nombre":"t11.L6",   "input_places": [{"nombrelugar" : "p10", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p11.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{"tipo":"lugar","nombre":"p12.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y": "120+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*2" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			},
+			{ "tipo":"transicion", "nombre":"t12.L6",    "input_places": [{"nombrelugar" : "p11.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p12.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+			 
+			{"tipo":"lugar","nombre":"p13.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y": "170+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*3"  } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t13.L6",   "input_places": [{"nombrelugar" : "p12.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p13.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+			 
+			{"tipo":"lugar","nombre":"p14.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y":  "220+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*4" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t14.L6",   "input_places": [{"nombrelugar" : "p13.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p14.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+			 
+			 
+			{"tipo":"lugar","nombre":"p15.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y": 20} , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t15.L6",   "input_places": [{"nombrelugar" : "p14.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p15.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+			 
+			{"tipo":"lugar","nombre":"p16.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y":  "70+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']"} , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t16.L6",   "input_places": [{"nombrelugar" : "p15.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p16.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+
+			 
+			{"tipo":"lugar","nombre":"p17.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y":  "120+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*2" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t17.L6",   "input_places": [{"nombrelugar" : "p16.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p17.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+
+			 
+
+			{"tipo":"lugar","nombre":"p18.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y": "170+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*3" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t18.L6",   "input_places": [{"nombrelugar" : "p17.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p18.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+
+			 
+			{"tipo":"lugar","nombre":"p19.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y": "220+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*4" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t19.L6",   "input_places": [{"nombrelugar" : "p18.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p19.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+
+			 
+			{"tipo":"lugar","nombre":"p110.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y": "270+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*5" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t110.L6",   "input_places": [{"nombrelugar" : "p19.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p110.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+
+			 
+			{"tipo":"lugar","nombre":"p111.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y": 20 } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t111.L6",   "input_places": [{"nombrelugar" : "p110.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p111.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+			 
+			{"tipo":"lugar","nombre":"p112.L6", "enViaCirculacion":true, "posicion": { "x": 250, "y": "150-CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*1"  } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t112.L6",   "input_places": [{"nombrelugar" : "p111.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p112.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+			{ "tipo":"lugar", "nombre":"p20","enViaCirculacion":true,  "posicion": { "x": 390, "y":  20 } , "nroCarril":2,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" } ,"pathIcono":"tiposToken['automovil']['pathIcono']", "lugarCompartido": false
+				 
+			},
+
+			{"tipo":"lugar","nombre":"p21.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y": "70+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*1"  } , "nroCarril":2,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			},
+			{ "tipo":"transicion", "nombre":"t21.L6",   "input_places": [{"nombrelugar" : "p20", "nombreVariable":"vehiculo" }] ,
+			"output_places": [{ "nombrelugar": "p21.L6", "nombreVariable": "vehiculo"}] 
+				 
+				},
+			
+			 
+			{ "tipo":"lugar", "nombre":"p22.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y": "120+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*2" }  , "nroCarril":2,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			},
+						{ "tipo":"transicion", "nombre":"t22.L6",   "input_places": [{"nombrelugar" : "p21.L6", "nombreVariable":"vehiculo"}] ,						 
+						"output_places": [{ "nombrelugar": "p22.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"lugar", "nombre":"p23.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y": "170+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*3" } , "nroCarril":2,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			},
+						{ "tipo":"transicion", "nombre":"t23.L6" ,  "input_places": [{"nombrelugar" : "p22.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p23.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+
+			 
+			{"tipo":"lugar","nombre":"p24.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y": "220+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*4" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t24.L6",   "input_places": [{"nombrelugar" : "p23.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p24.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+			 
+			{"tipo":"lugar","nombre":"p25.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y":  20 } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t25.L6",   "input_places": [{"nombrelugar" : "p24.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p25.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+			 
+			{"tipo":"lugar","nombre":"p26.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y":  "70+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t26.L6",   "input_places": [{"nombrelugar" : "p25.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p26.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+
+			 
+			{"tipo":"lugar","nombre":"p27.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y": "120+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*2" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t27.L6",   "input_places": [{"nombrelugar" : "p26.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p27.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+
+			 
+			{"tipo":"lugar","nombre":"p28.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y":  "170+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*3" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t28.L6",   "input_places": [{"nombrelugar" : "p27.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p28.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+
+			 
+			{"tipo":"lugar","nombre":"p29.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y":  "220+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*4" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t29.L6",   "input_places": [{"nombrelugar" : "p28.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p29.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+
+			 
+			{"tipo":"lugar","nombre":"p210.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y": "270+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*5" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t210.L6",   "input_places": [{"nombrelugar" : "p29.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p210.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+
+			 
+			{"tipo":"lugar","nombre":"p211.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y": 20} , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t211.L6",   "input_places": [{"nombrelugar" : "p210.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p211.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+			 
+			{"tipo":"lugar","nombre":"p212.L6", "enViaCirculacion":true, "posicion": { "x": 390, "y": "150-CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*1" } , "nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a4']" }, "lugarCompartido": false
+				 
+			 },
+			{ "tipo":"transicion", "nombre":"t212.L6",   "input_places": [{"nombrelugar" : "p211.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p212.L6", "nombreVariable": "vehiculo"}]
+							 
+						},
+			 
+			{ "tipo":"transicion", "nombre":"t11_22.L6",   "input_places": [{"nombrelugar" : "p11.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p22.L6", "nombreVariable": "vehiculo"}] 
+							 
+						},
+
+			 
+			{ "tipo":"transicion", "nombre":"t21_12.L6",      "input_places": [{"nombrelugar" : "p21.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p12.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t12_23.L6",     "input_places": [{"nombrelugar" : "p12.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p23.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t22_13.L6",  "input_places": [{"nombrelugar" : "p22.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p13.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+
+			 
+			{ "tipo":"transicion", "nombre":"t13_24.L6",     "input_places": [{"nombrelugar" : "p13.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p24.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t23_14.L6",  "input_places": [{"nombrelugar" : "p23.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p14.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t14_25.L6",     "input_places": [{"nombrelugar" : "p14.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p25.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t24_15.L6",  "input_places": [{"nombrelugar" : "p24.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p15.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+
+			 
+			{ "tipo":"transicion", "nombre":"t15_26.L6",     "input_places": [{"nombrelugar" : "p15.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p26.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t25_16.L6",  "input_places": [{"nombrelugar" : "p25.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p16.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+
+			 
+			{ "tipo":"transicion", "nombre":"t16_27.L6",     "input_places": [{"nombrelugar" : "p16.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p27.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t26_17.L6",  "input_places": [{"nombrelugar" : "p26.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p17.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+
+			 
+			{ "tipo":"transicion", "nombre":"t17_28.L6",     "input_places": [{"nombrelugar" : "p17.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p28.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t27_18.L6",  "input_places": [{"nombrelugar" : "p27.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p18.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t18_29.L6",     "input_places": [{"nombrelugar" : "p18.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p29.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t28_19.L6",  "input_places": [{"nombrelugar" : "p28.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p19.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t19_210.L6",     "input_places": [{"nombrelugar" : "p19.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p210.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t29_110.L6",  "input_places": [{"nombrelugar" : "p29.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p110.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t110_211.L6",     "input_places": [{"nombrelugar" : "p110.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p211.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t210_111.L6",  "input_places": [{"nombrelugar" : "p210.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p111.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t111_212.L6",     "input_places": [{"nombrelugar" : "p111.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p212.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			 
+			{ "tipo":"transicion", "nombre":"t211_112.L6",  "input_places": [{"nombrelugar" : "p211.L6", "nombreVariable":"vehiculo"}] ,
+						"output_places": [{ "nombrelugar": "p112.L6", "nombreVariable": "vehiculo"}]
+							 
+						 },
+
+			{ "tipo":"lugar", "nombre":"p30.L2", "enViaCirculacion":true, "posicion": { "x": 330, "y": 430 } , "nroCarril":1,
+				 
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" ,"viaX":"mapeoColores['a2']" }, "lugarCompartido": true
+				 
+			},
+			 
+			{ "tipo":"lugar", "nombre":"p31.L2", "enViaCirculacion":true, "posicion": { "x": 330, "y": "430+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*2" } ,"nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']" ,"viaX":"mapeoColores['a2']" }, "lugarCompartido": false
+				 
+			},
+			{ "tipo":"transicion", "nombre":"t31.L2",    "input_places": [{"nombrelugar" : "p30.L2", "nombreVariable":"vehiculo"}] ,
+				"output_places": [{ "nombrelugar": "p31.L2", "nombreVariable": "vehiculo"}]
+					 
+				},						 			
+
+			 
+			{ "tipo":"lugar", "nombre":"p32.L2", "enViaCirculacion":true, "posicion": { "x": 330, "y":20  } ,"nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']","viaX":"mapeoColores['a2']" }, "lugarCompartido": false
+				 
+			},
+			{ "tipo":"transicion", "nombre":"t32.L2",    "input_places": [{"nombrelugar" : "p31.L2", "nombreVariable":"vehiculo"}] ,
+				"output_places": [{ "nombrelugar": "p32.L2", "nombreVariable": "vehiculo"}]
+					 
+				},
+
+			 
+			{ "tipo":"lugar", "nombre":"p33.L2", "enViaCirculacion":true, "posicion": { "x": 330, "y": "20+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*2" } ,"nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']","viaX":"mapeoColores['a2']" }, "lugarCompartido": false
+				 
+			},
+			{ "tipo":"transicion", "nombre":"t33.L2",    "input_places": [{"nombrelugar" : "p32.L2", "nombreVariable":"vehiculo"}] ,
+				"output_places": [{ "nombrelugar": "p33.L2", "nombreVariable": "vehiculo"}]
+					 
+				},
+
+			{ "tipo":"lugar", "nombre":"p34.L2", "enViaCirculacion":true, "posicion": { "x": 330, "y": "70+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*3" } ,"nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']","viaX":"mapeoColores['a2']" }, "lugarCompartido": false
+				 
+			},
+			{ "tipo":"transicion", "nombre":"t34.L2",    "input_places": [{"nombrelugar" : "p33.L2", "nombreVariable":"vehiculo"}] ,
+				"output_places": [{ "nombrelugar": "p34.L2", "nombreVariable": "vehiculo"}]
+					 
+				},
+
+			 
+			{ "tipo":"lugar", "nombre":"p35.L2", "enViaCirculacion":true, "posicion": { "x": 330, "y": "120+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*4" } ,"nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']","viaX":"mapeoColores['a2']" }, "lugarCompartido": false
+				 
+			},
+			{ "tipo":"transicion", "nombre":"t35.L2",    "input_places": [{"nombrelugar" : "p34.L2", "nombreVariable":"vehiculo"}] ,
+				"output_places": [{ "nombrelugar": "p35.L2", "nombreVariable": "vehiculo"}]
+					 
+				},
+
+			 
+			{ "tipo":"lugar", "nombre":"p36.L2", "enViaCirculacion":true, "posicion": { "x": 330, "y": "170+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*5" } ,"nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']","viaX":"mapeoColores['a2']" }, "lugarCompartido": false
+				 
+			},
+			{ "tipo":"transicion", "nombre":"t36.L2",    "input_places": [{"nombrelugar" : "p35.L2", "nombreVariable":"vehiculo"}] ,
+				"output_places": [{ "nombrelugar": "p36.L2", "nombreVariable": "vehiculo"}]
+					 
+				},
+
+			 
+			{ "tipo":"lugar", "nombre":"p37.L2", "enViaCirculacion":true, "posicion": { "x": 330, "y": "220+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*6" } ,"nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']","viaX":"mapeoColores['a2']" }, "lugarCompartido": false
+				 
+			},
+			{ "tipo":"transicion", "nombre":"t37.L2",    "input_places": [{"nombrelugar" : "p36.L2", "nombreVariable":"vehiculo"}] ,
+				"output_places": [{ "nombrelugar": "p37.L2", "nombreVariable": "vehiculo"}]
+					 
+				},
+
+			 
+			{ "tipo":"lugar", "nombre":"p38.L2", "enViaCirculacion":true, "posicion": { "x": 950, "y": "270+CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*7" } ,"nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']","viaX":"mapeoColores['a2']" }, "lugarCompartido": false
+				 
+			},
+			{ "tipo":"transicion", "nombre":"t38.L2",    "input_places": [{"nombrelugar" : "p37.L2", "nombreVariable":"vehiculo"}] ,
+				"output_places": [{ "nombrelugar": "p38.L2", "nombreVariable": "vehiculo"}]
+					 
+				},
+			 
+			{ "tipo":"lugar", "nombre":"p39.L2", "enViaCirculacion":true, "posicion": { "x": 950, "y": "320-CONSTANTES_LAYOUT['viaYDesc']['DISTANCIA']*8" } ,"nroCarril":1,
+				"dicStreamSet":{"viaYDesc":"mapeoColores['a3']","viaX":"mapeoColores['a2']" }, "lugarCompartido": false
+				 
+			},
+			{ "tipo":"transicion", "nombre":"t39.L2",    "input_places": [{"nombrelugar" : "p38.L2", "nombreVariable":"vehiculo"}] ,
+				"output_places": [{ "nombrelugar": "p39.L2", "nombreVariable": "vehiculo"}]
+					 
+				}
+]

@@ -1,0 +1,5 @@
+[
+	{ "nombre":"p13Compartido", "viaDeDestino":"viaX", "transicionesAfectadas": [ "t14","t24" ] }
+	,{ "nombre":"p20Compartido", "viaDeDestino":"viaYDesc", "transicionesAfectadas": [ "t14","t24" ] }
+	,{ "nombre":"p21Compartido", "viaDeDestino":"viaYAsc", "transicionesAfectadas": [ "t26" ] }
+]

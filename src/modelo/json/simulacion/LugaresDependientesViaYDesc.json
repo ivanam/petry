@@ -1,0 +1,36 @@
+[
+	{"tipo":"lugar", "nombre":"p14", "enViaCirculacion":false},
+	{"tipo":"lugar", "nombre":"p24", "enViaCirculacion":false},
+	{"tipo":"lugar", "nombre":"p15", "enViaCirculacion":false},
+	{"tipo":"lugar", "nombre":"p25", "enViaCirculacion":false},
+	{ "tipo":"transicionNueva", "nombre":"t14",  "esTransicionCruzada": false, "input_places": [{"nombrelugar" : "p112.L6", "nombreVariable":"vehiculo"}] ,
+		"output_places": [{ "nombrelugar": "p14", "nombreVariable": "vehiculo"}] },						 			
+	{ "tipo":"transicionNueva", "nombre":"t24",  "esTransicionCruzada": false, "input_places": [{"nombrelugar" : "p212.L6", "nombreVariable":"vehiculo"}] ,
+		"output_places": [{ "nombrelugar": "p15", "nombreVariable": "vehiculo"}]
+		 },
+	{ "tipo":"transicionNueva", "nombre":"t24A",  "esTransicionCruzada": false, "input_places": [{"nombrelugar" : "p14", "nombreVariable":"vehiculo"}] ,
+		"output_places": [{ "nombrelugar": "p24", "nombreVariable": "vehiculo"}]
+		},						 			
+	{ "tipo":"transicionNueva", "nombre":"t25A",  "esTransicionCruzada": false, "input_places": [{"nombrelugar" : "p15", "nombreVariable":"vehiculo"}] ,
+		"output_places": [{ "nombrelugar": "p25", "nombreVariable": "vehiculo"}]
+		},						 			
+	{ "tipo":"transicionNueva", "nombre":"t30A",  "esTransicionCruzada": false, "input_places": [{"nombrelugar" : "p24", "nombreVariable":"vehiculo"}] ,
+		"output_places": [{ "nombrelugar": "p30.L2", "nombreVariable": "vehiculo"}] 
+		 },						 			
+	{ "tipo":"transicionNueva", "nombre":"t30B",  "esTransicionCruzada": false, "input_places": [{"nombrelugar" : "p25", "nombreVariable":"vehiculo"}] ,
+		"output_places": [{ "nombrelugar": "p30.L2", "nombreVariable": "vehiculo"}]
+		},						 			
+
+	{"tipo":"lugar", "nombre":"p16","enViaCirculacion":false},
+	{"tipo":"lugar", "nombre":"p26","enViaCirculacion":false},
+	{"tipo":"lugar", "nombre":"p17.L4","enViaCirculacion":false},
+	{"tipo":"lugar", "nombre":"p27.L4","enViaCirculacion":false},
+	{ "tipo":"transicionNueva", "nombre":"t17A",  "esTransicionCruzada": false, 
+		"input_places": [{"nombrelugar" : "p16", "nombreVariable":"vehiculo"}] ,
+		"output_places": [{ "nombrelugar": "p17.L4", "nombreVariable": "vehiculo"}]
+		},						 			
+	{ "tipo":"transicionNueva", "nombre":"t27B",  "esTransicionCruzada": false,
+		"input_places": [{"nombrelugar" : "p26", "nombreVariable":"vehiculo"}] ,
+		"output_places": [{ "nombrelugar": "p27.L4", "nombreVariable": "vehiculo"}]
+		}
+]

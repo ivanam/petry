@@ -1,0 +1,51 @@
+[ 
+	{"tipo":"lugar","nombre":"p13Compartido","enViaCirculacion":false, "tokens":[91] },
+	{"tipo":"lugar","nombre":"p14","enViaCirculacion":false, "tokens":[91] },{"tipo":"lugar","nombre":"p15","tokens":[] },{"tipo":"lugar","nombre":"p16","tokens":[] },
+	 
+	{"tipo":"lugar","nombre":"p20Compartido","enViaCirculacion":false, "tokens":[]  },
+	{"tipo":"lugar","nombre":"p17","enViaCirculacion":false, "tokens":[] }, {"tipo":"lugar","nombre":"p18","enViaCirculacion":false, "tokens":[] },
+	{"tipo":"lugar","nombre":"p19","enViaCirculacion":false, "tokens":[] },
+
+	{"tipo":"lugar","nombre":"p21Compartido","enViaCirculacion":false,"tokens":[] },
+	{"tipo":"lugar","nombre":"p22","enViaCirculacion":false, "tokens":[] },{"tipo":"lugar","nombre":"p23","tokens":[] },{"tipo":"lugar","nombre":"p24","tokens":[] },
+
+	
+	 { "tipo":"transicion", "nombre":"t22","duracionFase": "DICC_FASES['i6']", "semaforosAsociados":[ "semaforoLink1"],  "input_places": [{"nombrelugar" : "p14" }] ,
+	 "output_places": [{ "nombrelugar": "p15"}] },
+
+		 { "tipo":"transicion", "nombre":"t23","duracionFase":"DICC_FASES['i7']",  "semaforosAsociados":[ "semaforoLink1"], "input_places": [{"nombrelugar" : "p15" }] ,
+	 "output_places": [{ "nombrelugar": "p16"}] },
+
+	
+	 { "tipo":"transicion", "nombre":"t24", "duracionFase":"DICC_FASES['i8']", "semaforosAsociados":[ "semaforoLink3","semaforoLink6"],
+	 "input_places": [{"nombrelugar" : "p13Compartido" }, {"nombrelugar" : "p16" }] , "output_places": [{ "nombrelugar": "p17"},
+	 																								{ "nombrelugar": "p20Compartido"},
+	 																								{ "nombrelugar": "p21Compartido"},
+	 																								{ "nombrelugar": "p22"}] },
+
+
+	
+	{ "tipo":"transicion", "nombre":"t25", "duracionFase":"DICC_FASES['i1']", "semaforosAsociados":[ "semaforoLink6" ], "input_places": [{"nombrelugar" : "p17" }] ,
+	"output_places": [{ "nombrelugar": "p18"}] },
+	
+	
+	{ "tipo":"transicion", "nombre":"t26", "duracionFase":"DICC_FASES['i2']", "semaforosAsociados":["semaforoLink6"],  "input_places": [{"nombrelugar" : "p18" }] ,
+	"output_places": [{ "nombrelugar": "p19"}] },
+
+
+	
+	
+	{ "tipo":"transicion", "nombre":"t27", "duracionFase":"DICC_FASES['i3']", "semaforosAsociados":[ "semaforoLink3" ] ,"input_places": [{"nombrelugar" : "p22" }] ,
+	"output_places": [{ "nombrelugar": "p23"}] },
+
+	
+	{ "tipo":"transicion", "nombre":"t28", "duracionFase":"DICC_FASES['i4']", "semaforosAsociados":[ "semaforoLink3" ] , "input_places": [{"nombrelugar" : "p23" }] ,
+	"output_places": [{ "nombrelugar": "p24"}] },
+
+	
+	{ "tipo":"transicion", "nombre":"t29", "duracionFase":"DICC_FASES['i5']", "semaforosAsociados":[ "semaforoLink1" ] , "input_places": [{"nombrelugar" : "p19" }, {"nombrelugar" : "p20Compartido" },
+																			{"nombrelugar" : "p21Compartido" },{"nombrelugar" : "p24" } ],
+						 "output_places": [{ "nombrelugar": "p14"},{ "nombrelugar": "p13Compartido"} ] }
+
+
+	]

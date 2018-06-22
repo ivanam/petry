@@ -1,0 +1,310 @@
+{
+	"viaYAsc":{ 
+		"1":{
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 20.67,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+
+				"fase_roja": {
+					"intervaloIngresoVehiculos": 23.33,
+					"duracionTotalFase":"DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+					,"estaTemporizada":false
+				}
+			},
+		 
+		 
+		"2":{
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 20.67,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+					"intervaloIngresoVehiculos":70.00,
+					"duracionTotalFase":"DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+					,"estaTemporizada":false
+				} 
+			},
+		 
+
+		 
+		 
+		"3": {
+			"fase_verde_amarilla":{
+				"intervaloIngresoVehiculos": 15.50,
+				"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+				,"estaTemporizada":false
+			},
+			"fase_roja":{
+				"intervaloIngresoVehiculos":70.00,
+				"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+				,"estaTemporizada":false
+			}
+		},
+		 
+
+		 
+		 
+		"4": {
+			"fase_verde_amarilla":{
+				"intervaloIngresoVehiculos":20.67,
+				"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']",
+				"estaTemporizada":false
+			},
+			"fase_roja":{
+				"intervaloIngresoVehiculos": 35.00,
+				"duracionTotalFase":"DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']",
+				"estaTemporizada":false
+			}
+		},
+		 
+
+
+		 
+		 
+		"5": {
+			"fase_verde_amarilla":{
+				"intervaloIngresoVehiculos":12.40,
+				"duracionTotalFase":"DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+				,"estaTemporizada":false
+			},
+			"fase_roja":{
+				"intervaloIngresoVehiculos": 35.00,
+				"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+				,"estaTemporizada":false
+			}
+
+		},
+		 
+
+
+		 
+		 
+		"6": {
+			"fase_verde_amarilla":{
+				"intervaloIngresoVehiculos":12.40,
+				"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+				,"estaTemporizada":false
+			},
+			"fase_roja":{
+				"intervaloIngresoVehiculos":35.00,
+				"duracionTotalFase":"DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+				,"estaTemporizada":false
+			}
+		},
+		 
+
+		 
+		 
+		"7": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 15.50,
+					"duracionTotalFase":"DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 35.00,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+
+		 
+		 
+		"8": {
+				"fase_verde_amarilla":{
+					"duracionTotalFase":"DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"intervaloIngresoVehiculos": 15.50
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 35.00,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+		 
+		 
+		"9": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 12.40,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 14.00,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+		
+		 
+		 
+		"10": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 12.40,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 35.00,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+
+		 
+		 
+		"11": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 8.86,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 17.50,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+
+		 
+		 
+		"12": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 15.50,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 23.33,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+
+		 
+		 
+		"13": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 15.50,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 35.00,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+
+		 
+		 
+		"14": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 12.40,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 23.33,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+
+
+		 
+		 
+		"15": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 31.00,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 17.50,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+
+		 
+		 
+		"16": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 7.75,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 35.00,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+
+		 
+		 
+		"17": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 15.50,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 35.00,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+
+		 
+		 
+		"18": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 20.67,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 23.33,
+						"duracionTotalFase":"DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+
+
+		 
+		 
+		"19": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 31.00,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 23.33,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			},
+
+		 
+		 
+		"20": {
+				"fase_verde_amarilla":{
+					"intervaloIngresoVehiculos": 20.67,
+					"duracionTotalFase": "DICC_FASES['i1']+DICC_FASES['i2']+DICC_FASES['i3']+DICC_FASES['i4']"
+					,"estaTemporizada":false
+				},
+				"fase_roja":{
+						"intervaloIngresoVehiculos": 23.33,
+						"duracionTotalFase": "DICC_FASES['i5']+DICC_FASES['i6']+DICC_FASES['i7']+DICC_FASES['i8']"
+						,"estaTemporizada": false								
+				}
+			}
+	}
+}
